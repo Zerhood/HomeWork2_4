@@ -21,15 +21,3 @@ public class Main {
         }
     }
 }
-
-class WrongLoginException extends RuntimeException {
-    public WrongLoginException(String message) {
-        super(message);
-    }
-}
-
-class WrongPasswordException extends RuntimeException {
-    public WrongPasswordException(String message) {
-        super(message);
-    }
-}
